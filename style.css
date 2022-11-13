@@ -1,0 +1,67 @@
+/* form styling */
+.contact-section .flexi {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 55% 40%;
+    grid-gap: 50px;
+    padding: 0 40px;
+  }
+  .contact-left{
+    margin-top: 100px;
+  }
+  
+
+ 
+  @media (min-width: 120px) and (max-width: 480px) {
+    
+    .contact-section .flexi {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        width: 100%;
+    }
+    .form-left{
+        width: 100%;
+        margin: 0 auto;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .contact-section .flexi {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        width: 100%;
+    }
+    .form-left{
+        width: 100%;
+        margin: 0 auto;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .contact-section .flexi {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        width: 100%;
+    }
+    .form-left{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+  }
+  @media (min-width: 1281px) {
+  
+    .contact-section .flexi {
+      display: grid;
+      grid-template-columns: 60% 40%;
+      grid-gap: 50px;
+      padding: 0 20px;
+    }
+    
+  }
+  
+  
